@@ -85,6 +85,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Shell Aliases
+## Git Aliases
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias got='git '
+alias get='git '
+
+## Vagrant Aliases
+alias vag='vagrant'
+alias vagup='vagrant up'
+alias vagdestroy='vagrant destroy'
+alias vagssh='vagrant ssh'
+alias vaghalt='vagrant halt'
+
+
+
+
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 source ~/.iterm2_shell_integration.`basename $SHELL`
 autoload -U zmv
