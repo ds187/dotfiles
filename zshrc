@@ -55,7 +55,7 @@ plugins=(z extract docker jsontools lol node python tmux urltools vagrant web-se
 # User configuration
 DEFAULT_USER="sandos"
 
-export PATH="/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/MacGPG2/bin"
+export PATH="/usr/local/opt/libexec/gnubin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/MacGPG2/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
