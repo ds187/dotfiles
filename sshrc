@@ -1,2 +1,3 @@
 export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
-source $SSHHOME/.sshrc.d/.curlrc
+export CURL_HOME=$SSHHOME/.sshrc.d/
+
