@@ -50,12 +50,12 @@ ZSH_THEME="sandos"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z extract docker jsontools lol node python tmux urltools vagrant web-search sublime aws git brew osx)
+plugins=(chucknorris z extract docker jsontools lol node python tmux urltools vagrant web-search sublime aws git brew osx)
 
 # User configuration
 DEFAULT_USER="sandos"
 
-export PATH="/usr/local/opt/libexec/gnubin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/MacGPG2/bin"
+export PATH="/usr/local/opt/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/MacGPG2/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -114,3 +114,6 @@ source ~/.iterm2_shell_integration.`basename $SHELL`
 autoload -U zmv
 
 function wetter() { curl -4 wttr.in/"$1" }
+
+## chuck_cowsay
+chuck_cow
